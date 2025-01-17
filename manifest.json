@@ -1,27 +1,25 @@
 {
-    "manifest_version": 3,
-    "name": "Multi-Search Extension",
-    "version": "1.0",
-    "description": "Search multiple engines with a custom keyword.",
-    "permissions": [
-      "storage",
-      "tabs"
-    ],
-    "options_page": "options.html",
-    "background": {
-      "service_worker": "background.js"
-    },
-    "omnibox": {
-      "keyword": "ms"
-    },
-    "action": {
-      "default_icon": {
-        "48": "icon48.png"
-      }
-    },
-    "icons": {
-      "48": "icon48.png",
-      "128": "icon128.png"
+  "manifest_version": 3,
+  "name": "Multi-Search Extension",
+  "version": "1.0",
+  "description": "Search multiple engines with a custom keyword.",
+  "permissions": [
+    "storage"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "omnibox": {
+    "keyword": "ms"
+  },
+  "action": {
+    "default_icon": {
+      "48": "icon48.png"
     }
+  },
+  "options_page": "options.html",
+  "icons": {
+    "48": "icon48.png",
+    "128": "icon128.png"
   }
-  
+}
