@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Multi-Search Extension",
+  "name": "Multi-Search",
   "version": "1.0",
   "description": "Search multiple engines with a custom keyword.",
   "permissions": [
